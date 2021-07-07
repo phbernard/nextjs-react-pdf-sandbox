@@ -16,6 +16,15 @@ module.exports = {
       ]
     });
 
+    // Enable these externals to build
+    /*
+    config.externals = {
+      ...config.externals,
+      canvas: 'canvas',
+      critters: 'critters'
+    };
+    */
+
     return config;
   }
 };
