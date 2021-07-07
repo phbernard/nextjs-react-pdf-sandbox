@@ -1,4 +1,5 @@
 module.exports = {
+  target: "serverless", // For next-on-netlify
   webpack: (config) => {
     // load worker files as a urls with `file-loader`
     config.module.rules.unshift({
